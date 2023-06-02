@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Athletics';
+    src: url('./assets/fonts/AthleticsRegular.otf');
+}
+@font-face {
+    font-family: 'PP Formula';
+    src: url('./assets/fonts/PPFormula.ttf');
+}
+
