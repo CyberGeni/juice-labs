@@ -1,1 +1,21 @@
- 
+.dino {
+  animation: move 40s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(100% - 100px);
+    transform: scaleX(1);
+  }
+  51% {
+    transform: scaleX(-1);
+  }
+  100% {
+    left: 0;
+    transform: scaleX(-1);
+  }
+}
