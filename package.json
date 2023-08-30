@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "animate.css": "^4.1.1",
     "framer-motion": "^10.12.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.0",
+    "react-tabs": "^6.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

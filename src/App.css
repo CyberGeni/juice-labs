@@ -19,3 +19,19 @@
     transform: scaleX(-1);
   }
 }
+.marquee-container {
+  position: absolute;
+  width: 108vw !important;
+  overflow: hidden;
+}
+
+.marquee-container.one {
+  left: -2.5% !important;
+  top: -19em;
+  rotate: 20deg ;
+}
+.marquee-container.two {
+  right: 4% !important;
+  top: -22.5em;
+  rotate: -20deg ;
+}
