@@ -28,9 +28,9 @@ export default function Reviews() {
             }
           `}
           >
-            <div className="relative flex flex-col items-center justify-between w-[35vw] -rotate-[24deg] mt-36 left rounded-2xl border-2 border-black bg-purple-300 text-center font-semibold">
+            <div className="relative flex flex-col items-center justify-between w-[35vw] -rotate-[24deg] mt-36 rounded-2xl border-2 border-black bg-purple-300 text-center font-semibold">
               <img className="w-28 mt-12 mb-1" src={stars} alt="" />
-              <p className="w-10/12 mb-6 p-6 leading-relaxed text-lg">
+              <p className="px-[8%] pt-6 pb-14 bg-purple-300 leading-relaxed text-lg">
                 We've been using Juice Labs as our go-to source for healthy
                 drinks in the office, and the results have been nothing short of
                 amazing. Productivity has increased and sick days have decreased
@@ -40,11 +40,11 @@ export default function Reviews() {
               <div className="rounded-b-2xl py-4 bg-black text-white w-full font-medium">
                 Fave A, Daily Bugle
               </div>
-              <img className="absolute w-28 -bottom-8 -right-16 -z-20" src={spikey} alt="" />
+              <img className="absolute w-28 -bottom-8 -right-16 -z-10" src={spikey} alt="" />
               <img className="absolute w-48 -bottom-7 -right-20 " src={shades} alt="" />
             
             </div>
-            <div className="relative flex flex-col items-center justify-between w-[35vw] -mt-60 center rounded-2xl border-2 border-black bg-yellow-500 text-center font-semibold">
+            <div className="relative flex flex-col items-center justify-between w-[35vw] -mt-60 rounded-2xl border-2 border-black bg-yellow-500 text-center font-semibold">
               <img className="w-28 mt-12 mb-1" src={stars} alt="" />
               <p className="w-10/12 mb-6 p-6 leading-relaxed text-lg">
                 We've been using Juice Labs as our go-to source for healthy
@@ -61,7 +61,7 @@ export default function Reviews() {
             </div>
             <div className=" flex flex-col items-center justify-between w-[35vw] rounded-2xl bg-green-400 rotate-[24deg] mt-36 right  border-2 border-black text-center font-semibold">
               <img className="w-28 mt-12 mb-1" src={stars} alt="" />
-              <p className="w-10/12 mb-6 p-6 leading-relaxed text-lg">
+              <p className="px-[8%] pt-6 pb-14 bg-green-400 leading-relaxed text-lg">
                 We've been using Juice Labs as our go-to source for healthy
                 drinks in the office, and the results have been nothing short of
                 amazing. Productivity has increased and sick days have decreased
