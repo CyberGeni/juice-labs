@@ -9,6 +9,7 @@ import Marquee from "../components/Marquee";
 import DrinkSelection from "../components/DrinkSelection";
 import 'animate.css'
 import banner from "../assets/images/banner.png"
+import Reviews from "../components/Reviews";
 function Main() {
   return (
     <div className="font-athletics overflow-x-hidden relative">
@@ -66,6 +67,9 @@ function Main() {
       {/* drink carouselsection */}
       <div>
         <DrinkSelection />
+      </div>
+      <div>
+        <Reviews />
       </div>
     </div>
   );

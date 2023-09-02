@@ -57,7 +57,7 @@ function DrinkSelection() {
 
   return (
     <div className="font-athletics border-t-2 border-black">
-      <div className="bg-[#25513A] py-28 px-12 lg:px-20">
+      <div className="bg-[#25513A] py-28 px-12 lg:px-20 relative">
         <div>
           <Tabs
             onSelect={handleTabSelect}

@@ -35,3 +35,29 @@
   top: -22.5em;
   rotate: -20deg ;
 }
+
+/* .review-box {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.center {
+  transform: translateX(0);
+  background-color: blue;
+}
+
+.left {
+  background-color: red;
+  transform: translateX(-200px) rotate(-15deg);
+}
+
+.right {
+  transform: translateX(200px) rotate(15deg);
+  background-color: green;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+} */
