@@ -7,7 +7,12 @@
     src: url('./assets/fonts/AthleticsRegular.otf');
 }
 @font-face {
-    font-family: 'PP Formula';
-    src: url('./assets/fonts/PPFormula.ttf');
+    font-family: 'PP Formula Light';
+    src: url('./assets/fonts/PPFormula-Condensed-Ultralight.otf');
 }
+@font-face {
+    font-family: 'PP Formula Normal';
+    src: url('./assets/fonts/PPFormula-CondensedBlack.otf');
+}
+
 

@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         athletics: ['Athletics', "sans-serif"],
-        ppformula: ["PP Formula", "sans-serif"],
+        ppformulaNormal: ["PP Formula Normal", "sans-serif"],
+        ppformulaLight: ["PP Formula Light", "sans-serif"],
       },
     },
   },

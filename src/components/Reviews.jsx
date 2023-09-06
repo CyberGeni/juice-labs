@@ -5,10 +5,6 @@ import shades from "../assets/images/shades.png"
 import "../App.css";
 export default function Reviews() {
   const [activeReview, setActiveReview] = useState("second");
-  console.log("active review: ", activeReview);
-  // const handleActiveReview = () => {
-  //   setActiveReview();
-  // };
 
   return (
     <div className="bg-red-300 pt-24 -mt-16 md:-mt-24">
@@ -73,7 +69,6 @@ export default function Reviews() {
               </div>
               <img className="absolute w-28 -bottom-8 -right-16 -z-20" src={spikey} alt="" />
               <img className="absolute w-48 -bottom-7 -right-20 " src={shades} alt="" />
-            
             </div>
           </div>
 
